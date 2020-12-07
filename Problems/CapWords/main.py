@@ -1,0 +1,6 @@
+class_name = input()
+class_name = class_name.lower()
+class_name = class_name.replace("_", " ")
+class_name = class_name.title()
+class_name = class_name.replace(" ", "")
+print(class_name)
